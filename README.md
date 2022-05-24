@@ -39,6 +39,10 @@ plugin Awesome Flutter Snippets   // faz a complementação da digitação do c�
 // já estava instalada
 
 22/05/2022
+A partir do Flutter 2.2 - Null Safety obrigatório
+
+24/05/2022
+Quando vocẽ tem um parâmetro a 1a letra é sempre em minúscula (técnica CamelCase)
 
 
 

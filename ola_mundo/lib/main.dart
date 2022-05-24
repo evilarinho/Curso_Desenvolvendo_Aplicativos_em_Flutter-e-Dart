@@ -1,41 +1,16 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
-  /*
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Aplicativo Olá Mundo'),
-        ),
-        body: const Center(
-          child: Text(
-            'olá mundo',
-            style: TextStyle(fontSize: 50, color: Colors.black),
-          ),
-        ),
-      ),
-    ),
-  );
-  */
+  int valor = 10;
+
+  runApp(MyApp(title: 'Aplicativo Olá Mundo Title', valor: valor));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-/*
-  @override
-  Widget build(BuildContext context) {
-    // ignore: avoid_unnecessary_containers
-    return Container(
-        child: const Center(
-      child: Text(
-        'My App',
-        textDirection: TextDirection.ltr,
-      ),
-    ));
-  }
-*/
+  final String title;
+  final int valor;
+
+  const MyApp({Key? key, this.title = "", this.valor = 0}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -43,12 +18,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Aplicativo Olá Mundo'),
+          title: Text(title),
         ),
-        body: const Center(
+        body: Center(
           child: Text(
-            'olá mundo',
-            style: TextStyle(fontSize: 50, color: Colors.black),
+            'olá mundo, o valor é' + valor.toString(),
+            style: const TextStyle(fontSize: 50, color: Colors.black),
           ),
         ),
       ),

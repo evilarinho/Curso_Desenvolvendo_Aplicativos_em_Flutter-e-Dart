@@ -44,9 +44,12 @@ A partir do Flutter 2.2 - Null Safety obrigatório
 24/05/2022
 Quando vocẽ tem um parâmetro a 1a letra é sempre em minúscula (técnica CamelCase)
 
-
-
 ____________________________________________________________________
+Como passar um PARÂMETRO em um STATELESS WIDGET - Curso de Flutter e Dart - Aula 2
+https://youtu.be/YPkSUx9gExI
+
+24/05/2022
+
 ____________________________________________________________________
 ____________________________________________________________________
 ____________________________________________________________________

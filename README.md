@@ -51,6 +51,15 @@ https://youtu.be/YPkSUx9gExI
 24/05/2022
 
 ____________________________________________________________________
+STATEFUL WIDGET e SET STATE EXPLICADO - Aula 3 - Curso de Flutter e Dart
+https://youtu.be/fiwLHEB6DH4
+
+25/05/2022
+importM (atalho do plugin  Awesome Flutter Snippets) para a linha:
+import 'package:flutter/material.dart';
+
+GestureDetector()
+
 ____________________________________________________________________
 ____________________________________________________________________
 ____________________________________________________________________

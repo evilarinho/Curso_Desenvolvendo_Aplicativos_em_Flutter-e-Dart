@@ -61,7 +61,18 @@ import 'package:flutter/material.dart';
 GestureDetector()
 
 ____________________________________________________________________
+Entendendo o Primeiro Programa Exemplo do Flutter - Aula 4 - Stateless, Stateful Widget e setState
+https://youtu.be/ZaXDnDu2PSY
+
+26/05/2022
+
+fvm flutter create --org com.startdevstudio primeiro_programa
+
+plugin: Remove Comments
+
 ____________________________________________________________________
+
+
 ____________________________________________________________________
 ____________________________________________________________________
 ____________________________________________________________________

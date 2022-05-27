@@ -19,7 +19,29 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text('Aplictivo Exemplo Scaffoold'),
         ),
-        body: const Center(child: Text('Meu Aplicativo')),
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: const [
+            Center(
+              child: Text(
+                'Meu Aplicativo',
+                style: TextStyle(fontSize: 12),
+              ),
+            ),
+            Center(
+              child: Text(
+                'Mesma Linha 2 ',
+                style: TextStyle(fontSize: 12),
+              ),
+            ),
+            Center(
+              child: Text(
+                'Mesma Linha 3',
+                style: TextStyle(fontSize: 12),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

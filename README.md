@@ -71,15 +71,14 @@ fvm flutter create --org com.startdevstudio primeiro_programa
 plugin: Remove Comments
 
 ____________________________________________________________________
-Scaffold e AppBar - Layout em Flutter - Aula 1
-https://youtu.be/etjfFedl6Jo
+Como Usar o ROW em Flutter - Layout em Flutter com Widget Row - Aula 2
 
 27/05/2022
-scaffold
-appBar
-body
+
+mainAxisAlignment: MainAxisAlignment.spaceAround
 
 ____________________________________________________________________
+
 ____________________________________________________________________
 ____________________________________________________________________
 ____________________________________________________________________

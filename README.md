@@ -71,7 +71,13 @@ fvm flutter create --org com.startdevstudio primeiro_programa
 plugin: Remove Comments
 
 ____________________________________________________________________
+Scaffold e AppBar - Layout em Flutter - Aula 1
+https://youtu.be/etjfFedl6Jo
 
+27/05/2022
+scaffold
+appBar
+body
 
 ____________________________________________________________________
 ____________________________________________________________________
